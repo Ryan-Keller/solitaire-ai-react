@@ -1,0 +1,21 @@
+.tableau {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .tableau-pile {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .tableau-slot {
+    height: 100px;
+    width: 75px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
